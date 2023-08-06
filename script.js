@@ -14,5 +14,5 @@ const sendURL = (URL) => {
   // })
   //   .then((res) => res.json())
   //   .then((json) => console.log(json));
-  window.location.href = `http://localhost/4000/download?URL=${URL}`;
+  window.location.href = `https://acltube-downloader.vercel.app/download?URL=${URL}`;
 };
